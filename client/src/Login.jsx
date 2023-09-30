@@ -21,6 +21,7 @@ function Login() {
       
         })
         .catch(err => console.log(err))
+        
     }
 
     return (
@@ -51,7 +52,7 @@ function Login() {
                     <input type="password" placeholder="Enter Password" name="password" className="form-control rounded-0" onChange={(e) => setPassword(e.target.value)}></input>
                 </div>
                 <button type="submit" className="btn btn-success w-100 rounded-0">
-                    Register
+                    Login
                 </button>
                 </form>
                 <p> Already Have an Account</p>
