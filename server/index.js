@@ -1,4 +1,7 @@
 // API Codes
+// run npm start
+
+// for client run npm run dev
 const express = require("express")
 const mongoose = require ("mongoose")
 const cors = require("cors")
